@@ -105,9 +105,7 @@
 </head>
 <body>
   <div class="container">
-    <h1 style="display: flex; align-items: center; justify-content: center; gap: 12px;">
-      <span style="font-size: 3rem; font-weight: 800; background: linear-gradient(90deg, #00ffcc, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AIgnite</span>
-    </h1>
+    <h1>AIgnite</h1>
     <p>Discover exactly where AI can give you an unfair advantage — in minutes, not months.</p>
     <form id="aiForm">
       <label>Your Name:
@@ -152,6 +150,7 @@
         { label: "How do you handle customer communication?", options: ["Email", "Chat support", "Phone", "Social DMs"] },
         { label: "What kind of marketing do you run?", options: ["None", "Email newsletters", "Paid ads", "Organic social"] }
       ]
+      // ... Add other industries as needed
     };
     industrySelect.addEventListener('change', function () {
       const selected = industrySelect.value;
@@ -192,3 +191,4 @@
   </script>
 </body>
 </html>
+
