@@ -106,7 +106,6 @@
 <body>
   <div class="container">
     <h1 style="display: flex; align-items: center; justify-content: center; gap: 12px;">
-      <img src="/aignite-logo.png" alt="AIgnite Logo" style="height: 48px; width: auto;" />
       <span style="font-size: 3rem; font-weight: 800; background: linear-gradient(90deg, #00ffcc, #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AIgnite</span>
     </h1>
     <p>Discover exactly where AI can give you an unfair advantage — in minutes, not months.</p>
